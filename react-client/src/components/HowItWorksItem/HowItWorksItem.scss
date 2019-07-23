@@ -1,0 +1,35 @@
+.how-it-works-item {
+    height: 30vh;
+    background-color: #f2f2f2;
+    width: 300px;
+    padding: 5% 2% 2% 2%;
+    border-radius: 5px;
+    .step-container {
+        .step-number-cropper {
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            border-radius: 50%;
+            overflow: hidden;
+            .step {
+                width: 30px;
+                height: 30px;
+                background-color: #fff;
+                color: #568cf3;
+            }
+        }
+    }
+    .img-container {
+        margin-top: 1.5em;
+    }
+    .txt {
+        margin-top: 1.5em;
+        color: #333;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .how-it-works-item {
+        width: 200px;
+    }
+}

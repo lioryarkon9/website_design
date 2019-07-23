@@ -1,0 +1,12 @@
+#join {
+    .header {
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .how-it-works-item-container {
+        margin-bottom: 2%;
+    }
+}
