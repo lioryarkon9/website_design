@@ -10,6 +10,7 @@ header {
         }
         #navbar-sm {
             display: none;
+            color: #568cf3;
         }
         #login-area {
             z-index: 2;
@@ -34,7 +35,6 @@ header {
             #navbar-sm {
                 display: block;
                 padding: 0 10px 0 10px;
-                cursor: pointer;
             }
             .sm-menu-open {
                 position: absolute;

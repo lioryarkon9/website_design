@@ -2,6 +2,7 @@ import React from 'react';
 import {Button} from 'react-bootstrap';
 import './Header.scss';
 import LgNav from './LgNav';
+import SmNav from './SmNav';
 
 
 class Header extends React.Component {
@@ -21,13 +22,11 @@ class Header extends React.Component {
                 </div>
                 <div id='container-a' className='d-flex justify-content-between'>
                     <LgNav/>
-                    <div 
-                        className={SM_MENU_CLASS}
-                        onClick={e => this.setState({isSmMenuOpen: !this.state.isSmMenuOpen})} 
-                        id='navbar-sm'
-                    >
-                        ICON
-                    </div>
+                    <SmNav 
+                        toggleMenu={e => this.setState({isSmMenuOpen: !this.state.isSmMenuOpen})}
+                        smMenuClass={SM_MENU_CLASS}
+                        isSmMenuOpen={this.state.isSmMenuOpen}
+                    />
                     <div id='login-area' className={LOGIN_AREA_CLASS}>
                         <Button size='sm' variant="outline-success">Login</Button>
                             <span>
