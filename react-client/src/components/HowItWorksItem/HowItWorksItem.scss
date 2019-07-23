@@ -33,3 +33,9 @@
         width: 200px;
     }
 }
+
+@media screen and (max-height: 600px) {
+    .txt {
+        display: none;
+    }
+}
