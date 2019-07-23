@@ -1,0 +1,52 @@
+[
+    {
+        "strategy": "Legacy",
+        "netPL": 571.72,
+        "netProfit": {"value": 58408.17, "currency": "usd"},
+        "trades": 20477,
+        "winP": 47.72,
+        "profitFactor": 1.2,
+        "weeks": 453,
+        "followers": 898
+    },
+    {
+        "strategy": "Ruby",
+        "netPL": 879.63,
+        "netProfit": {"value": 5247.36, "currency": "usd"},
+        "trades": 3020,
+        "winP": 81.82,
+        "profitFactor": 1.88,
+        "weeks": 70,
+        "followers": 889
+    },
+    {
+        "strategy": "Apollo",
+        "netPL": 407.83,
+        "netProfit": {"value": 10195.83, "currency": "usd"},
+        "trades": 1604,
+        "winP": 83.6,
+        "profitFactor": 3.37,
+        "weeks": 249,
+        "followers": 724
+    },
+    {
+        "strategy": "Radiant",
+        "netPL": 219.28,
+        "netProfit": {"value": 21928.11, "currency": "eur"},
+        "trades": 2997,
+        "winP": 70.2,
+        "profitFactor": 1.29,
+        "weeks": 116,
+        "followers": 542
+    },
+    {
+        "strategy": "Dynamo",
+        "netPL": -4.18,
+        "netProfit": {"value": -4026.1, "currency": "usd"},
+        "trades": 795,
+        "winP": 62.77,
+        "profitFactor": 0.97,
+        "weeks": 40,
+        "followers": 161
+    }
+]

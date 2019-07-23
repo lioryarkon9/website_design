@@ -1,0 +1,26 @@
+#sub-app {
+    border: 1px solid gray;
+    padding-bottom: 1%;
+    .sub-app-row {
+        margin-top: 1%;
+        .header-item {
+            color: #fff;
+            background-color: black;
+        }
+        .strategy-val {
+            color: blue;
+        }
+        .positive-val {
+            color: green;
+        }
+        .empty {
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    #sub-app {
+        display: none;
+    }
+}
