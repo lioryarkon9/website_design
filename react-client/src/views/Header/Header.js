@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button} from 'react-bootstrap';
 import './Header.scss';
+import LgNav from './LgNav';
 
 
 class Header extends React.Component {
@@ -19,7 +20,7 @@ class Header extends React.Component {
                     logo
                 </div>
                 <div id='container-a' className='d-flex justify-content-between'>
-                    <div id='navbar-lg'>nav-lg</div>
+                    <LgNav/>
                     <div 
                         className={SM_MENU_CLASS}
                         onClick={e => this.setState({isSmMenuOpen: !this.state.isSmMenuOpen})} 

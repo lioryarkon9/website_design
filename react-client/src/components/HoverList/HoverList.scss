@@ -1,0 +1,27 @@
+.hover-list {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    .hover-container {
+        position: absolute;
+        border-radius: 5px;
+        padding: 5%;
+        background-color: #fff;
+        box-shadow: 0 0 1px 1px;
+        color: #a29f84;
+        .title {
+            border-bottom: 1px solid;
+        }
+        .title:hover {
+            color: black;
+        }
+        .item {
+            padding: 3px;
+            border-radius: 2px;
+        }
+        .item:hover {
+            background-color: #b3afaf;
+            color: black;
+        }
+    }
+}

@@ -5,7 +5,8 @@ header {
     color: #fff;
     #container-a {
         #navbar-lg {
-
+            color: #a29f84;
+            font-size: 0.8em;
         }
         #navbar-sm {
             display: none;
@@ -28,7 +29,7 @@ header {
             top: 1vh;
             left: 1vw;
             #navbar-lg {
-                display: none;
+                display: none !important;
             }
             #navbar-sm {
                 display: block;
