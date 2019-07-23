@@ -1,5 +1,7 @@
-.dropdown {
+.app-dropdown {
+    border-top: 1px solid gray;
+    padding: 2% 0 2% 0;
     .item {
-        border-bottom: 1px solid;
+        border-top: 1px dotted gray;
     }
 }

@@ -20,7 +20,7 @@ class Dropdown extends OuterClickHandler {
         return (
             <div ref={this.setWrapperRef}>
                 <div 
-                    className='dropdown'
+                    className='app-dropdown'
                     style={{cursor: 'pointer'}}
                 >
                     <div 
