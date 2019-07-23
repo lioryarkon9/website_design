@@ -1,6 +1,7 @@
 import React from 'react';
 import './SmNav.scss';
 import Dropdown from '../../../components/Dropdown';
+import CLOSE_ICON from '../../../assets/close.png';
 
 const SmNav = props => {
     return (
@@ -10,10 +11,12 @@ const SmNav = props => {
             className={props.smMenuClass}
         >
             <div 
-                style={{cursor: 'pointer'}}
+                style={{cursor: 'pointer', paddingTop: 6 + 'px'}}
                 onClick={props.toggleMenu}
             >
-                ICON
+                {props.isSmMenuOpen ? 
+                    <img src={CLOSE_ICON} alt='close'/>
+                : <span style={{color: '#fff'}}>&#9776;</span>}
             </div>
 
             {props.isSmMenuOpen ?
