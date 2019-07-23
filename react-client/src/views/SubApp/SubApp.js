@@ -91,7 +91,7 @@ class SubApp extends React.Component {
                 </Row>
                 {this.state.list.map((item, i) => (
                     <Row key={'_row-' + i} className='flex-nowrap sub-app-row'>
-                        <Col className='d-flex justify-content-end align-items-center strategy-val'>
+                        <Col className='d-flex justify-content-center align-items-center strategy-val'>
                             {item.strategy}
                         </Col>
                         <Col className={'d-flex justify-content-end align-items-center' + ' ' + this.getNePlClass(item.netPL)}>
